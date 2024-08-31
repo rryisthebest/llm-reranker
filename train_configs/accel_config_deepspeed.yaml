@@ -1,6 +1,6 @@
 compute_environment: LOCAL_MACHINE
 deepspeed_config:
-  deepspeed_config_file: /scratch/bcnq/jdoo2/reranker-feedback/train_configs/zero3_bf16.json
+  deepspeed_config_file: ${REPO_DIR}/train_configs/zero3_bf16.json
   zero3_init_flag: true
 distributed_type: DEEPSPEED
 fsdp_config: {}
